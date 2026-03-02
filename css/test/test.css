@@ -1,0 +1,46 @@
+:root{
+  --user-background: #dddddd;
+}
+.User-Icon{
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+.User-Div1{
+  display: flex;
+  align-items: center;
+  background-color:var(--user-background);
+  background-image: url(../../images/PNG/User_Background/382-3821930_forest-freetoedit-tree-line.png);
+  width: 250px;
+  border-radius: 7px;
+  background-position: 0px -30px;
+  margin-top: 20px
+}
+.User-Div{
+  display: flex;
+  align-items: center;
+  background-color:var(--user-background);
+  /* background-image: url(../../images/PNG/User_Background/382-3821930_forest-freetoedit-tree-line.png); */
+  width: 250px;
+  border-radius: 7px;
+  /* background-position: 0px -30px; */
+  margin-top: 20px;
+}
+.User-Text{
+  font-size:15px ;
+  font-weight:500;
+}
+.User-Status-Div{
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+}
+.User-status-icon{
+  position:relative;
+  height: 13px;
+  top: 24px;
+  left: -14px;
+  background-color: var(--user-background);
+  border-radius: 100%;
+  border: var(--user-background) solid 2px;
+}
